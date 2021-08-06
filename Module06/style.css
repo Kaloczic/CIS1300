@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+ box-sizing: border-box;
+}
+*, *:before, *:after {
+ box-sizing: inherit;
+ overflow:auto;
+}
+
+table {
+    width: 100%;
+    min-height: 100vh;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    height: 200px;
+    vertical-align: top;
+    text-align: center;
+    background-color: #a8dadc;
+}
+
+.footer {
+    height: 200px;
+    vertical-align: top;
+    text-align: center;
+    background-color: #a8dadc;
+}
+
+.main_content {
+    min-width: 600px;
+    text-align: left;
+    vertical-align: top;
+    background-color: #f1faee;
+}
+
+.sidebar {
+    width: 20%;
+    vertical-align: top;
+    background-color: #1d3557;
+}
